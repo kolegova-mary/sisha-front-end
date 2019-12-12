@@ -1,7 +1,7 @@
-
-<p>Login:</p>
-<input>
-<p>Password:</p>
-    <input>
-    <br>
-<button> Submit </button>
+<form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+  <div>Login, please</div>
+    <input class="email" placeholder="Email" name="email" ngModel required #email="ngModel">
+    <input class="password" placeholder="Password" name="password" ngModel required #password="ngModel">
+    <button class="butgo">Go</button>
+    <button class="reg">Check in</button>
+  </form>
