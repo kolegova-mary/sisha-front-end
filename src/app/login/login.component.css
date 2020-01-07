@@ -53,6 +53,7 @@ transition: all 1s;
 font-size: 25px;
 }
 .reg{
-    color: rgb(250,172,17);
+    border-radius: 7px;
+    background-color: rgb(214, 216, 73);
     margin-left: 20px;
 }

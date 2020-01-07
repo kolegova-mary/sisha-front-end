@@ -3,5 +3,5 @@
     <input class="email" placeholder="Email" name="email" ngModel required #email="ngModel">
     <input class="password" placeholder="Password" name="password" ngModel required #password="ngModel">
     <button class="butgo">Go</button>
-    <button class="reg">Check in</button>
+    <button class="reg" (click)="clicked()">Check in</button>
   </form>

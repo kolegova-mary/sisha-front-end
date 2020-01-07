@@ -26,4 +26,7 @@ export class LoginComponent implements OnInit {
     });
    f.reset();
   }
+  clicked(event){
+    
+  }
 }
